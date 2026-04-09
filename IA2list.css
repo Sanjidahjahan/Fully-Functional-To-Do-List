@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.todo-app {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Input rows */
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+/* Row 1: Teammate Name input */
+.teammate-input {
+    flex: 1 1 auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 500px;
+}
+
+/* Dropdown */
+.teammate-dropdown {
+    width: 140px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Task input */
+.task-input {
+    flex: 1 1 auto;  /* expands */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 220px;
+}
+
+/* Date input */
+.date-input {
+    width: 103px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Buttons */
+.input-row .btn {
+    height: 36px;
+    width: 65px;
+}
+
+.task-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.task-row .due-date {
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.task-row input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-left: 5px;
+}
+
+.button-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.81em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.btn-blue {
+    background: #007bff;
+}
+.btn-blue:hover {
+    background: #0056b3;
+}
+
+.btn-green {
+    background: #64d05e;
+}
+.btn-green:hover {
+    background: #4ea649;
+}
+
+.btn-gray {
+    background: #c3c3c3;
+    color: black;
+}
+.btn-gray:hover {
+    background: #8f8f8f;
+}
+.empty-msg {
+    text-align: center;
+    color: #777;
+    font-size: 1em;
+    margin: 30px 0;
+}
+
+.task-list{
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.task-completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.teammate-name {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    text-align: center;
+    color: #333;
+}

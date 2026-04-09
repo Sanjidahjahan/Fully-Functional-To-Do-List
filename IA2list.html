@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="IA2list.css">
+</head>
+<body>
+<div class="todo-app">
+    <h1>To-Do List</h1>
+
+    <div class="input-row">
+        <label>
+            <input type="text" placeholder="Teammate Name" class="teammate-input">
+        </label>
+        <button class="btn btn-blue">Add</button>
+    </div>
+
+    <div class="input-row">
+        <label>
+            <select class="teammate-dropdown">
+                <option disabled selected>Assign to</option>
+            </select>
+        </label>
+        <label>
+            <input type="text" placeholder="Task" class="task-input">
+        </label>
+        <label>
+            <input type="date" class="date-input">
+        </label>
+        <button class="btn btn-blue">Assign</button>
+    </div>
+
+    <hr class="divider">
+
+    <div id="taskList" class="task-list">
+        <p id="empty-msg" class="empty-msg">
+            No tasks right now. Please add a teammate and assign a task.
+        </p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="button-row">
+        <button class="btn btn-green">Clear Completed</button>
+        <button class="btn btn-gray">Reset</button>
+    </div>
+</div>
+
+<script src="IA2list.js"></script>
+
+</body>
+</html>
