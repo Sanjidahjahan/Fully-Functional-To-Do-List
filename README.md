@@ -2,7 +2,7 @@
 - A dynamic, interactive to-do list application for teams — built from scratch with  HTML, CSS, and JavaScript.
 
 **Live Demo**
-link here
+https://sanjidahjahan.github.io/Fully-Functional-To-Do-List/
 
 **Features**
 - Add teammates with duplicate and empty-input validation, sorted alphabetically
@@ -13,7 +13,7 @@ link here
 - Full app state is saved to local storage and restored automatically on page reload
 
 **Getting Started**
-- Open IA2list.html in your browser — no installs or build tools required
+- Open index.html in your browser — no installs or build tools required
 
 **Tech Stack**
 - HTML
@@ -21,7 +21,7 @@ link here
 - JavaScript 
 
 **Project Structure**
-- IA2list.html
+- index.html
 - IA2list.css
 - IA2list.js
 
